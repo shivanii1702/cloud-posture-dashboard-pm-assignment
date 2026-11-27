@@ -14,7 +14,7 @@ When a team manages multiple cloud accounts like Production, Development, and Te
 This is built for a developer, DevOps engineer, or startup founder who manages AWS or other cloud accounts for a small team without a dedicated security person. They understand basic cloud setups, but do not want to spend hours decoding security terms or risk breaking a live app by changing permissions blindly. They just want to know which account has a problem, why it matters, and what safe steps to take to fix it.
 
 ## Proposed Features and Screen Notes
-My [Figma prototype](https://figma.com) walks through the complete 7-screen workflow from connecting an account to verifying a fix:
+My [Figma prototype](https://www.figma.com/proto/Q4NwbaiTyb4Cs1gmvir083/Untitled?node-id=6-4&p=f&t=pqaxJ2pDia38hZwQ-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1) walks through the complete 7-screen workflow from connecting an account to verifying a fix:
 
 1. **Connect Cloud Account (Onboarding):** Lets users pick AWS, Azure, or GCP using safe read-only access without asking for passwords or secret keys so they trust the setup.
 2. **Overview Dashboard:** Shows the overall security score (72/100), connected accounts, severity counts, and a "Fix these issues first" list at the top so users immediately see critical Production risks instead of digging through 24 alerts.
