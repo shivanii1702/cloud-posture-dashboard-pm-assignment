@@ -3,7 +3,7 @@
 **Submitted by:** Shivani Tiwari  
 **Role:** Product Management Trainee: AccuKnox  
 **Interactive Figma Prototype:** [Open Prototype](https://www.figma.com/proto/Q4NwbaiTyb4Cs1gmvir083/Untitled?node-id=6-1193&p=f&t=pqaxJ2pDia38hZwQ-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)  
-**PDF Submission:** [View Full Write-Up PDF](./CloudGuard_Assignment.pdf) 
+**PDF Write-Up:** [View Full Submission PDF](./AccuKnox_Product_Management_Trainee_Assignment_Shivani_Tiwari.pdf)
 
 ---
 
@@ -14,14 +14,15 @@ When a team manages multiple cloud accounts like Production, Development, and Te
 This is built for a developer, DevOps engineer, or startup founder who manages AWS or other cloud accounts for a small team without a dedicated security person. They understand basic cloud setups, but do not want to spend hours decoding security terms or risk breaking a live app by changing permissions blindly. They just want to know which account has a problem, why it matters, and what safe steps to take to fix it.
 
 ## Proposed Features and Screen Notes
-While the [Figma prototype](https://www.figma.com/proto/Q4NwbaiTyb4Cs1gmvir083/Untitled?node-id=6-1193&p=f&t=pqaxJ2pDia38hZwQ-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1) also covers onboarding, connected accounts, and scan progress, the main workflow focuses on screens:
+My [Figma prototype](https://figma.com) walks through the complete 7-screen workflow from connecting an account to verifying a fix:
 
-1. **Overview Dashboard**  
-   This screen shows the overall security score (72/100), account status, issue counts by severity, and a "Fix these issues first" list at the top. I put critical Production issues right at the top so a user does not have to dig through 24 alerts just to figure out where to start.
-2. **Findings List**  
-   This is a central table where you can search and filter alerts by cloud provider, account, severity, category, and status. I added these filters so an engineer can hide Testing or Development noise in one click and look only at Production risks.
-3. **Finding Details and Verification**  
-   When you open an issue, it explains what is happening and why it matters in simple terms, along with a warning before you make changes. It gives a 5-step checklist, a button to open the AWS console, a collapsed section for raw technical details, and a "Verify issue" button. I hid the raw technical details by default so the screen does not feel overwhelming, added the warning so users do not accidentally lock down permissions and break their app, and added the verify button so they can check right away if their fix worked.
+1. **Connect Cloud Account (Onboarding):** Lets users pick AWS, Azure, or GCP using safe read-only access without asking for passwords or secret keys so they trust the setup.
+2. **Overview Dashboard:** Shows the overall security score (72/100), connected accounts, severity counts, and a "Fix these issues first" list at the top so users immediately see critical Production risks instead of digging through 24 alerts.
+3. **Findings List:** A central table with search and filters (provider, account, severity, category, status) so engineers can hide Testing noise in one click and focus only on Production risks.
+4. **Finding Details and Verification:** Explains what is happening and why it matters in plain English, adds a safety warning before making changes, provides a 5-step checklist with an Open AWS Console button, hides raw specs under a collapsed "Technical details" toggle, and ends with a "Verify issue" button.
+5. **Cloud Accounts Management:** Displays all connected accounts, their last scan time, and simple options to reconnect, disconnect, or add another account.
+6. **Live Scan Progress:** Shows real-time check progress (like "Checking 42 of 62") when a scan runs so users know the system is working.
+7. **Workspace Settings:** Keeps basic scan preferences and team access controls simple and easy to manage.
 
 ## Prioritization
 For version 1, I focused on the overview screen, multi-account filters, and step-by-step fix guides with verification. Together, these help users see their overall risk, hide non-production noise, and fix issues safely. Clear explanations matter much more early on than adding extra charts or complicated settings. Version 1 should also use read-only cloud access and guide users through fixes instead of making automatic changes to their cloud setup.
