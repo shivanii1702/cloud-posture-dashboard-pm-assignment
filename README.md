@@ -1,7 +1,7 @@
 # cloud-posture-dashboard-pm-assignment
 
 **Submitted by:** Shivani Tiwari  
-**Role:** Product Management Trainee — AccuKnox  
+**Role:** Product Management Trainee: AccuKnox  
 **Interactive Figma Prototype:** [Open Prototype](https://figma.com)  
 **PDF Submission:** [View Full Write-Up PDF](./CloudGuard_Assignment.pdf) *(update filename if yours differs)*
 
