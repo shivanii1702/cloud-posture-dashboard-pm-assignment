@@ -3,7 +3,7 @@
 **Submitted by:** Shivani Tiwari  
 **Role:** Product Management Trainee: AccuKnox  
 **Interactive Figma Prototype:** [Open Prototype](https://www.figma.com/proto/Q4NwbaiTyb4Cs1gmvir083/Untitled?node-id=6-1193&p=f&t=pqaxJ2pDia38hZwQ-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)  
-**PDF Write-Up:** [View Full Submission PDF](./AccuKnox_Product_Management_Trainee_Assignment_Shivani_Tiwari.pdf)
+**PDF Write-Up:** [View Full Submission PDF](./AccuKnox%20Product%20Management%20Trainee%20Assignment_%20Shivani%20Tiwari.pdf)
 
 ---
 
