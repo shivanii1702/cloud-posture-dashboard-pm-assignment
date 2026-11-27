@@ -14,7 +14,7 @@ When a team manages multiple cloud accounts like Production, Development, and Te
 This is built for a developer, DevOps engineer, or startup founder who manages AWS or other cloud accounts for a small team without a dedicated security person. They understand basic cloud setups, but do not want to spend hours decoding security terms or risk breaking a live app by changing permissions blindly. They just want to know which account has a problem, why it matters, and what safe steps to take to fix it.
 
 ## Proposed Features and Screen Notes
-While the [Figma prototype](https://figma.com) also covers onboarding, connected accounts, and scan progress, the main workflow focuses on three screens:
+While the [Figma prototype](https://www.figma.com/proto/Q4NwbaiTyb4Cs1gmvir083/Untitled?node-id=6-1193&p=f&t=pqaxJ2pDia38hZwQ-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1) also covers onboarding, connected accounts, and scan progress, the main workflow focuses on screens:
 
 1. **Overview Dashboard**  
    This screen shows the overall security score (72/100), account status, issue counts by severity, and a "Fix these issues first" list at the top. I put critical Production issues right at the top so a user does not have to dig through 24 alerts just to figure out where to start.
