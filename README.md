@@ -2,8 +2,8 @@
 
 **Submitted by:** Shivani Tiwari  
 **Role:** Product Management Trainee: AccuKnox  
-**Interactive Figma Prototype:** [Open Prototype](https://figma.com)  
-**PDF Submission:** [View Full Write-Up PDF](./CloudGuard_Assignment.pdf) *(update filename if yours differs)*
+**Interactive Figma Prototype:** [Open Prototype](https://www.figma.com/proto/Q4NwbaiTyb4Cs1gmvir083/Untitled?node-id=6-1193&p=f&t=pqaxJ2pDia38hZwQ-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)  
+**PDF Submission:** [View Full Write-Up PDF](./CloudGuard_Assignment.pdf) 
 
 ---
 
